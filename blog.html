@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <title>University Web Design</title>
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Certificate & Online Programs For 2021</h1>
+    </section>
+
+    <!------------- Blog Page Content ------------->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg">
+                <h2>Certificate & Online Programs For 2021</h2>
+                <p>En la etapa de 1842-1898, a partir del proceso de secularización, la Universidad pasa a llamarse Real Universidad de La Habana, o también Real y Literaria, este último acuñado por la tradición. Desde este momento, los asuntos universitarios fueron manejados directamente, por el gobierno colonial de la Isla. Durante esos años se introdujeron diferentes cambios en los planes de estudio de la institución.</p>
+                <br>
+                <p>Entre 1898-1958, período comprendido desde la Primera Intervención Militar en Cuba y hasta el final de la República Neocolonial, la Universidad de La Habana vive un momento trascendental de su historia. Todas las transformaciones universitarias dentro de esta fase de transición se dictaron a través de órdenes militares</p>
+                <br>
+                <p>El edificio de la Universidad se trasladó oficialmente a la Loma de la Pirotecnia o Colina de Aróstegui, sitio en el que aún permanece. En los inicios de la vida republicana se comenzaron a construir los primeros edificios en la Colina y a reformar los ya existentes para adecuarlos a los fines académicos.</p>
+                <br>
+                <p>Posterior a la fundación de la FEU, enero de 1923, comenzó el proceso de Reforma Universitaria en nuestra institución, el cual tuvo el liderazgo indiscutible de Julio Antonio Mella.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+
+
+
+
+            </div>
+            <div class="blog-rigth">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Mchine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Auto CAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-star"></i> by Easy Tutorials</p>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- JavaScripts for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
